@@ -1,0 +1,15 @@
+import io, sys
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf8')
+
+intinput = int(input())
+a10000 = str((intinput//10000)*10000)
+a1000 = str((intinput%10000//1000)*1000)
+a100 = str((intinput%1000//100)*100)
+a10 = str((intinput%100//10)*10)
+a1 = str(intinput%10)
+
+print("["+a10000+"]")
+print("["+a1000+"]")
+print("["+a100+"]")
+print("["+a10+"]")
+print("["+a1+"]")
