@@ -1,0 +1,6 @@
+N = int(input())
+
+if N == int(True):
+    print(int(False))
+else:
+    print(int(True))
