@@ -1,0 +1,4 @@
+Y, M, D = map(str, input().split('.'))
+ymd_list = [D,M,Y]
+
+print('-'.join(ymd_list))
