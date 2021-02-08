@@ -1,0 +1,3 @@
+ascii_char = ord(str(input()))
+
+print(chr(ascii_char+1))
