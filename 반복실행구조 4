@@ -1,0 +1,11 @@
+from string import ascii_lowercase
+
+N = str(input())
+
+alpha_list = list(ascii_lowercase)
+
+for i in alpha_list:
+    if i == N:
+        print(i)
+        break
+    print(i)
