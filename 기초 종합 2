@@ -1,0 +1,6 @@
+N = list(map(str, input().split()))
+
+for i in N:
+    print(i)
+    if i == 'q':
+        break
